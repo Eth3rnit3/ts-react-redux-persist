@@ -1,4 +1,8 @@
-export interface DefaultActionParams {
-  type: string,
-  payload: any
+export interface AuthState {
+  token: string;
+  isConnected: boolean;
+};
+
+export interface StoreState {
+  auth: AuthState;
 }

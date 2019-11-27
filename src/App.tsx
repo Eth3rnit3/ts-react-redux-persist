@@ -1,10 +1,12 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Router from "./routes/Router";
+import logo from "./logo.svg";
+import "./App.css";
 
 const App: React.FC = () => {
   return (
     <div className="App">
+      <Router />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -21,6 +23,6 @@ const App: React.FC = () => {
       </header>
     </div>
   );
-}
+};
 
 export default App;

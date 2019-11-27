@@ -1,4 +1,4 @@
-import { DefaultActionParams } from './interfaces'
+import { DefaultActionParams } from '../actions/interfaces'
 import { LOGIN, LOGOUT } from '../types/auth'
 const initialState = {
   token: '',
